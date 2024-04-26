@@ -1,0 +1,15 @@
+--- !FileInfo:
+  filepath: "/home/town/mlir-tutorial/toy-tutorial/include/toy/ToyOps.td"
+  includes: "/home/town/mlir-tutorial/toy-tutorial/include/toy;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/toy-tutorial/include;/home/town/mlir-tutorial/toy-tutorial/build/include"
+--- !FileInfo:
+  filepath: "/home/town/mlir-tutorial/toy-tutorial/include/toy/ToyOps.td"
+  includes: "/home/town/mlir-tutorial/toy-tutorial/include/toy;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/toy-tutorial/include;/home/town/mlir-tutorial/toy-tutorial/build/include"
+--- !FileInfo:
+  filepath: "/home/town/mlir-tutorial/toy-tutorial/include/toy/ToyOps.td"
+  includes: "/home/town/mlir-tutorial/toy-tutorial/include/toy;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/toy-tutorial/include;/home/town/mlir-tutorial/toy-tutorial/build/include"
+--- !FileInfo:
+  filepath: "/home/town/mlir-tutorial/toy-tutorial/include/toy/ToyOps.td"
+  includes: "/home/town/mlir-tutorial/toy-tutorial/include/toy;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/toy-tutorial/include;/home/town/mlir-tutorial/toy-tutorial/build/include"
+--- !FileInfo:
+  filepath: "/home/town/mlir-tutorial/toy-tutorial/include/toy/ToyCombine.td"
+  includes: "/home/town/mlir-tutorial/toy-tutorial/include/toy;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/install/include;/home/town/mlir-tutorial/toy-tutorial/include;/home/town/mlir-tutorial/toy-tutorial/build/include"
