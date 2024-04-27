@@ -5,6 +5,7 @@ add_mlir_library(
     Dialect.cpp
     ToyCombine.cpp
     ShapeInferencePass.cpp
+    LowerToAffineLoops.cpp
 
     DEPENDS 
     ToyOpsIncGen

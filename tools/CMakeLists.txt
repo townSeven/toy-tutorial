@@ -1,13 +1,21 @@
 add_mlir_tool(toy-opt toy-opt.cpp)
+get_property(dialect_libs GLOBAL PROPERTY MLIR_DIALECT_LIBS)
+get_property(extension_libs GLOBAL PROPERTY MLIR_EXTENSION_LIBS)
 target_link_libraries(
   toy-opt
   PRIVATE Toy
-  MLIRIR 
-  MLIRParser 
-  MLIRSupport
+  ${dialect_libs}
+  ${extension_libs}
+  MLIRIR #
+  MLIRParser #
+  MLIRSupport #
   MLIROptLib        # 对应 #include "mlir/Tools/mlir-opt/MlirOptMain.h"
   MLIRFuncDialect   # 对应 #include "mlir/Dialect/Func/IR/FuncOps.h"
   MLIRTransforms    # 对应 #include "mlir/Transforms/Passes.h"
-  MLIRCastInterfaces
-  MLIRFunctionInterfaces
+  MLIRCastInterfaces #
+  MLIRFunctionInterfaces #
+  MLIRPass
+  MLIRSideEffectInterfaces
+  MLIRCallInterfaces
+  MLIRAnalysis
 )

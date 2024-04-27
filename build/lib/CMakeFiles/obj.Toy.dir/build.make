@@ -139,11 +139,26 @@ lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.s"
 	cd /home/town/mlir-tutorial/toy-tutorial/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/town/mlir-tutorial/toy-tutorial/lib/ShapeInferencePass.cpp -o CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.s
 
+lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o: lib/CMakeFiles/obj.Toy.dir/flags.make
+lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o: ../lib/LowerToAffineLoops.cpp
+lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o: lib/CMakeFiles/obj.Toy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o"
+	cd /home/town/mlir-tutorial/toy-tutorial/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o -MF CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o.d -o CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o -c /home/town/mlir-tutorial/toy-tutorial/lib/LowerToAffineLoops.cpp
+
+lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.i"
+	cd /home/town/mlir-tutorial/toy-tutorial/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/town/mlir-tutorial/toy-tutorial/lib/LowerToAffineLoops.cpp > CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.i
+
+lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.s"
+	cd /home/town/mlir-tutorial/toy-tutorial/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/town/mlir-tutorial/toy-tutorial/lib/LowerToAffineLoops.cpp -o CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.s
+
 obj.Toy: lib/CMakeFiles/obj.Toy.dir/parser/AST.cpp.o
 obj.Toy: lib/CMakeFiles/obj.Toy.dir/MLIRGen.cpp.o
 obj.Toy: lib/CMakeFiles/obj.Toy.dir/Dialect.cpp.o
 obj.Toy: lib/CMakeFiles/obj.Toy.dir/ToyCombine.cpp.o
 obj.Toy: lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o
+obj.Toy: lib/CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o
 obj.Toy: lib/CMakeFiles/obj.Toy.dir/build.make
 .PHONY : obj.Toy
 

@@ -435,12 +435,12 @@ lib/CMakeFiles/obj.Toy.dir/all: include/toy/CMakeFiles/ToyOpsIncGen.dir/all
 lib/CMakeFiles/obj.Toy.dir/all: include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/obj.Toy.dir/build.make lib/CMakeFiles/obj.Toy.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/obj.Toy.dir/build.make lib/CMakeFiles/obj.Toy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles --progress-num=18,19,20,21,22 "Built target obj.Toy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles --progress-num=18,19,20,21,22,23 "Built target obj.Toy"
 .PHONY : lib/CMakeFiles/obj.Toy.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/obj.Toy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/obj.Toy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/obj.Toy.dir/rule
@@ -470,7 +470,7 @@ lib/CMakeFiles/Toy.dir/all: lib/CMakeFiles/obj.Toy.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/Toy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Toy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/Toy.dir/rule
@@ -496,7 +496,7 @@ lib/CMakeFiles/install-Toy.dir/all: lib/CMakeFiles/Toy.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/install-Toy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/install-Toy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/install-Toy.dir/rule
@@ -522,7 +522,7 @@ lib/CMakeFiles/install-Toy-stripped.dir/all: lib/CMakeFiles/Toy.dir/all
 
 # Build rule for subdir invocation for target.
 lib/CMakeFiles/install-Toy-stripped.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/install-Toy-stripped.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 0
 .PHONY : lib/CMakeFiles/install-Toy-stripped.dir/rule
@@ -543,12 +543,12 @@ lib/CMakeFiles/install-Toy-stripped.dir/clean:
 tools/CMakeFiles/toy-opt.dir/all: lib/CMakeFiles/Toy.dir/all
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/toy-opt.dir/build.make tools/CMakeFiles/toy-opt.dir/depend
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/toy-opt.dir/build.make tools/CMakeFiles/toy-opt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles --progress-num=23,24 "Built target toy-opt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles --progress-num=24,25 "Built target toy-opt"
 .PHONY : tools/CMakeFiles/toy-opt.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/toy-opt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/toy-opt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles 0
 .PHONY : tools/CMakeFiles/toy-opt.dir/rule
