@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/town/mlir-tutorial/toy-tutorial/lib/Dialect.cpp" "lib/CMakeFiles/obj.Toy.dir/Dialect.cpp.o" "gcc" "lib/CMakeFiles/obj.Toy.dir/Dialect.cpp.o.d"
   "/home/town/mlir-tutorial/toy-tutorial/lib/MLIRGen.cpp" "lib/CMakeFiles/obj.Toy.dir/MLIRGen.cpp.o" "gcc" "lib/CMakeFiles/obj.Toy.dir/MLIRGen.cpp.o.d"
+  "/home/town/mlir-tutorial/toy-tutorial/lib/ShapeInferencePass.cpp" "lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o" "gcc" "lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o.d"
   "/home/town/mlir-tutorial/toy-tutorial/lib/ToyCombine.cpp" "lib/CMakeFiles/obj.Toy.dir/ToyCombine.cpp.o" "gcc" "lib/CMakeFiles/obj.Toy.dir/ToyCombine.cpp.o.d"
   "/home/town/mlir-tutorial/toy-tutorial/lib/parser/AST.cpp" "lib/CMakeFiles/obj.Toy.dir/parser/AST.cpp.o" "gcc" "lib/CMakeFiles/obj.Toy.dir/parser/AST.cpp.o.d"
   )

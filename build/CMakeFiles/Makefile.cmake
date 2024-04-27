@@ -176,6 +176,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mlir-doc.dir/DependInfo.cmake"
   "include/toy/CMakeFiles/ToyOpsIncGen.dir/DependInfo.cmake"
   "include/toy/CMakeFiles/ToyCombineIncGen.dir/DependInfo.cmake"
+  "include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/DependInfo.cmake"
   "lib/CMakeFiles/obj.Toy.dir/DependInfo.cmake"
   "lib/CMakeFiles/Toy.dir/DependInfo.cmake"
   "lib/CMakeFiles/install-Toy.dir/DependInfo.cmake"

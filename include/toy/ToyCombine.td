@@ -15,8 +15,8 @@ include "toy/ToyOps.td"
 def ReshapeReshapeOptPattern : Pat<(ReshapeOp(ReshapeOp $arg)), (ReshapeOp $arg)>;
 
 // Reshape(x) = x, where input and output shapes are identical
+// @town: eliminate redundant 'ReshapeOp'
 def TypesAreIdentical : Constraint<CPred<"$0.getType() == $1.getType()">>;
-
 def RedundantReshapeOptPattern : Pat<
     (ReshapeOp:$res $arg), (replaceWithValue $arg), 
     [(TypesAreIdentical $res, $arg)]>;

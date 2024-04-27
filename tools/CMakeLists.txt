@@ -8,4 +8,6 @@ target_link_libraries(
   MLIROptLib        # 对应 #include "mlir/Tools/mlir-opt/MlirOptMain.h"
   MLIRFuncDialect   # 对应 #include "mlir/Dialect/Func/IR/FuncOps.h"
   MLIRTransforms    # 对应 #include "mlir/Transforms/Passes.h"
+  MLIRCastInterfaces
+  MLIRFunctionInterfaces
 )

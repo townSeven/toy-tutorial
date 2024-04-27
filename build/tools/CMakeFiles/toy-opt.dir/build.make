@@ -99,6 +99,8 @@ toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRSupport.a
 toy-opt: /home/town/mlir-tutorial/install/lib/libMLIROptLib.a
 toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRFuncDialect.a
 toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRTransforms.a
+toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRCastInterfaces.a
+toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRFunctionInterfaces.a
 toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRParser.a
 toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRBytecodeReader.a
 toy-opt: /home/town/mlir-tutorial/install/lib/libMLIRAsmParser.a

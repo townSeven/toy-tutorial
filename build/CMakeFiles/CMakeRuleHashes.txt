@@ -1,6 +1,9 @@
 # Hashes of file build rules.
+ed847861d794eaa9dd2be2eecc319a46 include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen
 ed847861d794eaa9dd2be2eecc319a46 include/toy/CMakeFiles/ToyCombineIncGen
 ed847861d794eaa9dd2be2eecc319a46 include/toy/CMakeFiles/ToyOpsIncGen
+53a7b150d0af661cbeac8aa3d3fc0659 include/toy/ShapeInferenceOpInterfaces.cpp.inc
+8617116b4eb37670c343868602cd0539 include/toy/ShapeInferenceOpInterfaces.h.inc
 db3649fa21b937a1fac961ecf33e009a include/toy/ToyCombine.inc
 b07b2aa0ead20655bded16fa44fb90d5 include/toy/ToyDialect.cpp.inc
 06edc5fc3a3b28b564cbd4ea84e90894 include/toy/ToyDialect.h.inc

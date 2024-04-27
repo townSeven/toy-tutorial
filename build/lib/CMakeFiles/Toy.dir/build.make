@@ -77,12 +77,14 @@ Toy_EXTERNAL_OBJECTS = \
 "/home/town/mlir-tutorial/toy-tutorial/build/lib/CMakeFiles/obj.Toy.dir/parser/AST.cpp.o" \
 "/home/town/mlir-tutorial/toy-tutorial/build/lib/CMakeFiles/obj.Toy.dir/MLIRGen.cpp.o" \
 "/home/town/mlir-tutorial/toy-tutorial/build/lib/CMakeFiles/obj.Toy.dir/Dialect.cpp.o" \
-"/home/town/mlir-tutorial/toy-tutorial/build/lib/CMakeFiles/obj.Toy.dir/ToyCombine.cpp.o"
+"/home/town/mlir-tutorial/toy-tutorial/build/lib/CMakeFiles/obj.Toy.dir/ToyCombine.cpp.o" \
+"/home/town/mlir-tutorial/toy-tutorial/build/lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o"
 
 lib/libToy.a: lib/CMakeFiles/obj.Toy.dir/parser/AST.cpp.o
 lib/libToy.a: lib/CMakeFiles/obj.Toy.dir/MLIRGen.cpp.o
 lib/libToy.a: lib/CMakeFiles/obj.Toy.dir/Dialect.cpp.o
 lib/libToy.a: lib/CMakeFiles/obj.Toy.dir/ToyCombine.cpp.o
+lib/libToy.a: lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o
 lib/libToy.a: lib/CMakeFiles/Toy.dir/build.make
 lib/libToy.a: lib/CMakeFiles/Toy.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library libToy.a"

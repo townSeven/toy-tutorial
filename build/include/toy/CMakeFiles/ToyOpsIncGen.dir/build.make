@@ -76,6 +76,7 @@ include/toy/CMakeFiles/ToyOpsIncGen: include/toy/ToyOps.cpp.inc
 include/toy/CMakeFiles/ToyOpsIncGen: include/toy/ToyOps.cpp.inc
 
 include/toy/ToyDialect.cpp.inc: /home/town/mlir-tutorial/install/bin/mlir-tblgen
+include/toy/ToyDialect.cpp.inc: ../include/toy/ShapeInferenceInterface.td
 include/toy/ToyDialect.cpp.inc: ../include/toy/ToyCombine.td
 include/toy/ToyDialect.cpp.inc: ../include/toy/ToyOps.td
 include/toy/ToyDialect.cpp.inc: /home/town/mlir-tutorial/install/include/llvm/CodeGen/SDNodeProperties.td
@@ -126,6 +127,7 @@ include/toy/ToyDialect.cpp.inc: ../include/toy/ToyOps.td
 	cd /home/town/mlir-tutorial/toy-tutorial/build/include/toy && /home/town/mlir-tutorial/install/bin/mlir-tblgen -gen-dialect-defs -I /home/town/mlir-tutorial/toy-tutorial/include/toy -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/toy-tutorial/include -I/home/town/mlir-tutorial/toy-tutorial/build/include /home/town/mlir-tutorial/toy-tutorial/include/toy/ToyOps.td --write-if-changed -o /home/town/mlir-tutorial/toy-tutorial/build/include/toy/ToyDialect.cpp.inc
 
 include/toy/ToyDialect.h.inc: /home/town/mlir-tutorial/install/bin/mlir-tblgen
+include/toy/ToyDialect.h.inc: ../include/toy/ShapeInferenceInterface.td
 include/toy/ToyDialect.h.inc: ../include/toy/ToyCombine.td
 include/toy/ToyDialect.h.inc: ../include/toy/ToyOps.td
 include/toy/ToyDialect.h.inc: /home/town/mlir-tutorial/install/include/llvm/CodeGen/SDNodeProperties.td
@@ -176,6 +178,7 @@ include/toy/ToyDialect.h.inc: ../include/toy/ToyOps.td
 	cd /home/town/mlir-tutorial/toy-tutorial/build/include/toy && /home/town/mlir-tutorial/install/bin/mlir-tblgen -gen-dialect-decls -I /home/town/mlir-tutorial/toy-tutorial/include/toy -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/toy-tutorial/include -I/home/town/mlir-tutorial/toy-tutorial/build/include /home/town/mlir-tutorial/toy-tutorial/include/toy/ToyOps.td --write-if-changed -o /home/town/mlir-tutorial/toy-tutorial/build/include/toy/ToyDialect.h.inc
 
 include/toy/ToyOps.cpp.inc: /home/town/mlir-tutorial/install/bin/mlir-tblgen
+include/toy/ToyOps.cpp.inc: ../include/toy/ShapeInferenceInterface.td
 include/toy/ToyOps.cpp.inc: ../include/toy/ToyCombine.td
 include/toy/ToyOps.cpp.inc: ../include/toy/ToyOps.td
 include/toy/ToyOps.cpp.inc: /home/town/mlir-tutorial/install/include/llvm/CodeGen/SDNodeProperties.td
@@ -226,6 +229,7 @@ include/toy/ToyOps.cpp.inc: ../include/toy/ToyOps.td
 	cd /home/town/mlir-tutorial/toy-tutorial/build/include/toy && /home/town/mlir-tutorial/install/bin/mlir-tblgen -gen-op-defs -I /home/town/mlir-tutorial/toy-tutorial/include/toy -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/toy-tutorial/include -I/home/town/mlir-tutorial/toy-tutorial/build/include /home/town/mlir-tutorial/toy-tutorial/include/toy/ToyOps.td --write-if-changed -o /home/town/mlir-tutorial/toy-tutorial/build/include/toy/ToyOps.cpp.inc
 
 include/toy/ToyOps.h.inc: /home/town/mlir-tutorial/install/bin/mlir-tblgen
+include/toy/ToyOps.h.inc: ../include/toy/ShapeInferenceInterface.td
 include/toy/ToyOps.h.inc: ../include/toy/ToyCombine.td
 include/toy/ToyOps.h.inc: ../include/toy/ToyOps.td
 include/toy/ToyOps.h.inc: /home/town/mlir-tutorial/install/include/llvm/CodeGen/SDNodeProperties.td

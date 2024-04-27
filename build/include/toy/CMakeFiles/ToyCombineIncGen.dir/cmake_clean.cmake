@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ToyCombineIncGen"
+  "ShapeInferenceOpInterfaces.cpp.inc"
+  "ShapeInferenceOpInterfaces.h.inc"
   "ToyCombine.inc"
   "ToyDialect.cpp.inc"
   "ToyDialect.h.inc"

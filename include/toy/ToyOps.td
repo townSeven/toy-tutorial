@@ -6,6 +6,9 @@ include "mlir/IR/OpBase.td"
 include "mlir/Interfaces/FunctionInterfaces.td"
 include "mlir/IR/SymbolInterfaces.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"
+include "mlir/Interfaces/CallInterfaces.td"
+include "mlir/Interfaces/CastInterfaces.td"
+include "toy/ShapeInferenceInterface.td"
 
 //===----------------------------------------------------------------------===//
 // Dialect
@@ -72,6 +75,27 @@ def AddOp : Toy_Op<"add"> {
   ];
 }
 
+// CastOp
+def CastOp : Toy_Op<"cast", [
+    DeclareOpInterfaceMethods<CastOpInterface>,
+    DeclareOpInterfaceMethods<ShapeInferenceOpInterface>,
+    Pure,
+    SameOperandsAndResultShape]
+  > {
+  let summary = "shape cast operation";
+  let description = [{
+    The "cast" operation converts a tensor from one type to an equivalent type
+    without changing any data elements. The source and destination types
+    must both be tensor types with the same element type. If both are ranked,
+    then shape is required to match. The operation is invalid if converting
+    to a mismatching constant dimension.
+  }];
+
+  let arguments = (ins F64Tensor:$input);
+  let results = (outs F64Tensor:$output);
+  let assemblyFormat = "$input attr-dict `:` type($input) `to` type($output)";
+}
+
 // FuncOp
 def FuncOp : Toy_Op<"func", [
     FunctionOpInterface, IsolatedFromAbove
@@ -125,7 +149,9 @@ def FuncOp : Toy_Op<"func", [
 }
 
 // GenericCallOp
-def GenericCallOp : Toy_Op<"generic_call"> {
+def GenericCallOp : Toy_Op<"generic_call", 
+  [DeclareOpInterfaceMethods<CallOpInterface>]> {
+
   let summary = "generic call operation";
   let description = [{
     Generic calls represent calls to a user defined function that needs to
@@ -161,7 +187,8 @@ def GenericCallOp : Toy_Op<"generic_call"> {
 }
 
 // MulOp
-def MulOp : Toy_Op<"mul"> {
+def MulOp : Toy_Op<"mul", 
+    [Pure, DeclareOpInterfaceMethods<ShapeInferenceOpInterface>]> {
   let summary = "element-wise multiplication operation";
   let description = [{
     The "mul" operation performs element-wise multiplication between two
@@ -259,7 +286,8 @@ def ReturnOp : Toy_Op<"return", [Pure, HasParent<"FuncOp">,
 
 // TransposeOp
 // 由于 MLIR 在优化过程对于代码的清除相对保守，认为删除会产生副作用（side effect），于是会保留一些无效的操作，添加 NoSideEffect 特性即可解决这一问题
-def TransposeOp : Toy_Op<"transpose", [Pure]> {
+def TransposeOp : Toy_Op<"transpose", 
+      [Pure, DeclareOpInterfaceMethods<ShapeInferenceOpInterface>]> {
     let summary = "transpose operation";
 
     let arguments = (ins F64Tensor:$input);

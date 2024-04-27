@@ -4,7 +4,9 @@ add_mlir_library(
     MLIRGen.cpp 
     Dialect.cpp
     ToyCombine.cpp
+    ShapeInferencePass.cpp
 
     DEPENDS 
     ToyOpsIncGen
-    ToyCombineIncGen)
+    ToyCombineIncGen
+    ShapeInferenceInterfaceIncGen)

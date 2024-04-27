@@ -355,10 +355,14 @@ lib/CMakeFiles/obj.Toy.dir/ToyCombine.cpp.o: \
  /home/town/mlir-tutorial/toy-tutorial/include/toy/Dialect.h \
  /home/town/mlir-tutorial/install/include/mlir/Interfaces/CallInterfaces.h \
  /home/town/mlir-tutorial/install/include/mlir/Interfaces/CallInterfaces.h.inc \
+ /home/town/mlir-tutorial/install/include/mlir/Interfaces/CastInterfaces.h \
+ /home/town/mlir-tutorial/install/include/mlir/Interfaces/CastInterfaces.h.inc \
  /home/town/mlir-tutorial/install/include/mlir/Interfaces/FunctionInterfaces.h \
  /home/town/mlir-tutorial/install/include/mlir/IR/TypeUtilities.h \
  /home/town/mlir-tutorial/install/include/llvm/ADT/SmallString.h \
  /home/town/mlir-tutorial/install/include/mlir/Interfaces/FunctionInterfaces.h.inc \
+ /home/town/mlir-tutorial/toy-tutorial/include/toy/ShapeInferenceInterface.h \
+ /home/town/mlir-tutorial/toy-tutorial/build/include/toy/ShapeInferenceOpInterfaces.h.inc \
  /home/town/mlir-tutorial/toy-tutorial/build/include/toy/ToyDialect.h.inc \
  /home/town/mlir-tutorial/toy-tutorial/build/include/toy/ToyOps.h.inc \
  /home/town/mlir-tutorial/toy-tutorial/build/include/toy/ToyCombine.inc

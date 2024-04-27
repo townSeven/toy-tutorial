@@ -32,7 +32,7 @@ struct SimplifyRedundantTranspose : public mlir::OpRewritePattern<TransposeOp> {
 
         // Input defined by another transpose? If not, no match.
         if (!transposeInputOp)
-        return failure();
+            return failure();
 
         // Otherwise, we have a redundant transpose. Use the rewriter.
         rewriter.replaceOp(op, {transposeInputOp.getOperand()});
@@ -40,6 +40,7 @@ struct SimplifyRedundantTranspose : public mlir::OpRewritePattern<TransposeOp> {
     }
 };
 
+// Register our patterns for rewrite by the Canonicalization framework.
 void TransposeOp::getCanonicalizationPatterns(RewritePatternSet &results, MLIRContext *context) {
     results.add<SimplifyRedundantTranspose>(context);
 }

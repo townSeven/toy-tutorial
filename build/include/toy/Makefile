@@ -189,6 +189,20 @@ ToyCombineIncGen/fast:
 	cd /home/town/mlir-tutorial/toy-tutorial/build && $(MAKE) $(MAKESILENT) -f include/toy/CMakeFiles/ToyCombineIncGen.dir/build.make include/toy/CMakeFiles/ToyCombineIncGen.dir/build
 .PHONY : ToyCombineIncGen/fast
 
+# Convenience name for target.
+include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/rule:
+	cd /home/town/mlir-tutorial/toy-tutorial/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/rule
+.PHONY : include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/rule
+
+# Convenience name for target.
+ShapeInferenceInterfaceIncGen: include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/rule
+.PHONY : ShapeInferenceInterfaceIncGen
+
+# fast build rule for target.
+ShapeInferenceInterfaceIncGen/fast:
+	cd /home/town/mlir-tutorial/toy-tutorial/build && $(MAKE) $(MAKESILENT) -f include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/build.make include/toy/CMakeFiles/ShapeInferenceInterfaceIncGen.dir/build
+.PHONY : ShapeInferenceInterfaceIncGen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -201,6 +215,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... ShapeInferenceInterfaceIncGen"
 	@echo "... ToyCombineIncGen"
 	@echo "... ToyOpsIncGen"
 .PHONY : help

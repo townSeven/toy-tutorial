@@ -405,6 +405,8 @@ tools/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: ../tools/toy-opt.cpp \
   /home/town/mlir-tutorial/install/include/mlir/IR/SymbolInterfaces.h.inc \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/CallInterfaces.h \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/CallInterfaces.h.inc \
+  /home/town/mlir-tutorial/install/include/mlir/Interfaces/CastInterfaces.h \
+  /home/town/mlir-tutorial/install/include/mlir/Interfaces/CastInterfaces.h.inc \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/FunctionInterfaces.h \
   /home/town/mlir-tutorial/install/include/mlir/IR/Builders.h \
   /home/town/mlir-tutorial/install/include/mlir/IR/TypeUtilities.h \
@@ -412,12 +414,15 @@ tools/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: ../tools/toy-opt.cpp \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/FunctionInterfaces.h.inc \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/SideEffectInterfaces.h \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/SideEffectInterfaces.h.inc \
+  ../include/toy/ShapeInferenceInterface.h \
+  include/toy/ShapeInferenceOpInterfaces.h.inc \
   include/toy/ToyDialect.h.inc \
   include/toy/ToyOps.h.inc \
   ../include/toy/MLIRGen.h \
   ../include/toy/Parser.h \
   /home/town/mlir-tutorial/install/include/llvm/ADT/StringExtras.h \
   /home/town/mlir-tutorial/install/include/llvm/ADT/APSInt.h \
+  ../include/toy/Passes.h \
   /home/town/mlir-tutorial/install/include/mlir/IR/BuiltinOps.h \
   /home/town/mlir-tutorial/install/include/mlir/IR/OwningOpRef.h \
   /home/town/mlir-tutorial/install/include/mlir/IR/RegionKindInterface.h \
@@ -427,6 +432,7 @@ tools/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: ../tools/toy-opt.cpp \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/DataLayoutOpInterface.h.inc \
   /home/town/mlir-tutorial/install/include/mlir/Interfaces/DataLayoutTypeInterface.h.inc \
   /home/town/mlir-tutorial/install/include/mlir/IR/BuiltinOps.h.inc \
+  /home/town/mlir-tutorial/install/include/mlir/IR/Verifier.h \
   /home/town/mlir-tutorial/install/include/mlir/Parser/Parser.h \
   /home/town/mlir-tutorial/install/include/mlir/Pass/PassManager.h \
   /home/town/mlir-tutorial/install/include/mlir/Support/Timing.h \
@@ -473,6 +479,8 @@ tools/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: ../tools/toy-opt.cpp \
 
 /home/town/mlir-tutorial/install/include/mlir/IR/BuiltinOps.h.inc:
 
+../include/toy/Passes.h:
+
 /home/town/mlir-tutorial/install/include/llvm/ADT/APSInt.h:
 
 /home/town/mlir-tutorial/install/include/llvm/ADT/StringExtras.h:
@@ -484,6 +492,8 @@ tools/CMakeFiles/toy-opt.dir/toy-opt.cpp.o: ../tools/toy-opt.cpp \
 /home/town/mlir-tutorial/install/include/mlir/IR/TypeUtilities.h:
 
 /home/town/mlir-tutorial/install/include/mlir/Interfaces/FunctionInterfaces.h:
+
+/home/town/mlir-tutorial/install/include/mlir/Interfaces/CastInterfaces.h:
 
 /home/town/mlir-tutorial/install/include/mlir/IR/SymbolInterfaces.h.inc:
 
@@ -801,6 +811,8 @@ include/toy/ToyDialect.h.inc:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
+/home/town/mlir-tutorial/install/include/mlir/Interfaces/CastInterfaces.h.inc:
+
 /home/town/mlir-tutorial/install/include/mlir/IR/Value.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -1056,6 +1068,8 @@ include/toy/ToyDialect.h.inc:
 /home/town/mlir-tutorial/install/include/llvm/ADT/ilist.h:
 
 /usr/include/c++/11/array:
+
+/home/town/mlir-tutorial/install/include/mlir/IR/Verifier.h:
 
 /usr/include/limits.h:
 
@@ -1315,6 +1329,8 @@ include/toy/ToyDialect.h.inc:
 
 /home/town/mlir-tutorial/install/include/llvm/ADT/ArrayRef.h:
 
+include/toy/ShapeInferenceOpInterfaces.h.inc:
+
 /home/town/mlir-tutorial/install/include/llvm/ADT/Hashing.h:
 
 /usr/include/inttypes.h:
@@ -1336,6 +1352,8 @@ include/toy/ToyDialect.h.inc:
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /home/town/mlir-tutorial/install/include/llvm/Support/Allocator.h:
+
+../include/toy/ShapeInferenceInterface.h:
 
 /usr/include/c++/11/bits/unordered_map.h:
 

@@ -20,6 +20,11 @@
   "file": "/home/town/mlir-tutorial/toy-tutorial/lib/ToyCombine.cpp"
 },
 {
+  "directory": "/home/town/mlir-tutorial/toy-tutorial/build/lib",
+  "command": "/usr/bin/c++ -DGTEST_HAS_RTTI=0 -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/toy-tutorial/include -I/home/town/mlir-tutorial/toy-tutorial/build/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -ffunction-sections -fdata-sections  -fno-exceptions -funwind-tables -fno-rtti -UNDEBUG -std=gnu++17 -o CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o -c /home/town/mlir-tutorial/toy-tutorial/lib/ShapeInferencePass.cpp",
+  "file": "/home/town/mlir-tutorial/toy-tutorial/lib/ShapeInferencePass.cpp"
+},
+{
   "directory": "/home/town/mlir-tutorial/toy-tutorial/build/tools",
   "command": "/usr/bin/c++ -DGTEST_HAS_RTTI=0 -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/town/mlir-tutorial/install/include -I/home/town/mlir-tutorial/toy-tutorial/include -I/home/town/mlir-tutorial/toy-tutorial/build/include  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -ffunction-sections -fdata-sections  -fno-exceptions -funwind-tables -fno-rtti -UNDEBUG -std=gnu++17 -o CMakeFiles/toy-opt.dir/toy-opt.cpp.o -c /home/town/mlir-tutorial/toy-tutorial/tools/toy-opt.cpp",
   "file": "/home/town/mlir-tutorial/toy-tutorial/tools/toy-opt.cpp"

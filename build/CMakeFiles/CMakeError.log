@@ -1,14 +1,14 @@
 Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fa68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fa68.dir/build.make CMakeFiles/cmTC_8fa68.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3ecd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3ecd.dir/build.make CMakeFiles/cmTC_b3ecd.dir/build
 gmake[1]: Entering directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8fa68.dir/src.c.o
-/usr/bin/cc -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -fPIC -fno-semantic-interposition -Werror=date-time    -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_8fa68.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_b3ecd.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -fPIC -fno-semantic-interposition -Werror=date-time    -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_b3ecd.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
 cc1: error: '-Werror=unguarded-availability-new': no option '-Wunguarded-availability-new'
-gmake[1]: *** [CMakeFiles/cmTC_8fa68.dir/build.make:78: CMakeFiles/cmTC_8fa68.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_b3ecd.dir/build.make:78: CMakeFiles/cmTC_b3ecd.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_8fa68/fast] Error 2
+gmake: *** [Makefile:127: cmTC_b3ecd/fast] Error 2
 
 
 Source file was:
@@ -16,14 +16,14 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad71f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad71f.dir/build.make CMakeFiles/cmTC_ad71f.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4316/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4316.dir/build.make CMakeFiles/cmTC_a4316.dir/build
 gmake[1]: Entering directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad71f.dir/src.cxx.o
-/usr/bin/c++ -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time    -Werror -Werror=unguarded-availability-new -std=gnu++17 -o CMakeFiles/cmTC_ad71f.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_a4316.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time    -Werror -Werror=unguarded-availability-new -std=gnu++17 -o CMakeFiles/cmTC_a4316.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: error: '-Werror=unguarded-availability-new': no option '-Wunguarded-availability-new'
-gmake[1]: *** [CMakeFiles/cmTC_ad71f.dir/build.make:78: CMakeFiles/cmTC_ad71f.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_a4316.dir/build.make:78: CMakeFiles/cmTC_a4316.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_ad71f/fast] Error 2
+gmake: *** [Makefile:127: cmTC_a4316/fast] Error 2
 
 
 Source file was:
@@ -31,14 +31,14 @@ int main() { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bb39/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bb39.dir/build.make CMakeFiles/cmTC_9bb39.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f1da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f1da.dir/build.make CMakeFiles/cmTC_5f1da.dir/build
 gmake[1]: Entering directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9bb39.dir/src.c.o
-/usr/bin/cc -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough    -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_9bb39.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_5f1da.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough    -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_5f1da.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
 cc: error: unrecognized command-line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
-gmake[1]: *** [CMakeFiles/cmTC_9bb39.dir/build.make:78: CMakeFiles/cmTC_9bb39.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_5f1da.dir/build.make:78: CMakeFiles/cmTC_5f1da.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_9bb39/fast] Error 2
+gmake: *** [Makefile:127: cmTC_5f1da/fast] Error 2
 
 
 Source file was:
@@ -46,14 +46,14 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d47b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d47b2.dir/build.make CMakeFiles/cmTC_d47b2.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1fa27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fa27.dir/build.make CMakeFiles/cmTC_1fa27.dir/build
 gmake[1]: Entering directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d47b2.dir/src.cxx.o
-/usr/bin/c++ -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough    -Werror -Wcovered-switch-default -std=gnu++17 -o CMakeFiles/cmTC_d47b2.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_1fa27.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough    -Werror -Wcovered-switch-default -std=gnu++17 -o CMakeFiles/cmTC_1fa27.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
-gmake[1]: *** [CMakeFiles/cmTC_d47b2.dir/build.make:78: CMakeFiles/cmTC_d47b2.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_1fa27.dir/build.make:78: CMakeFiles/cmTC_1fa27.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_d47b2/fast] Error 2
+gmake: *** [Makefile:127: cmTC_1fa27/fast] Error 2
 
 
 Source file was:
@@ -61,17 +61,17 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c601/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c601.dir/build.make CMakeFiles/cmTC_7c601.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99417/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99417.dir/build.make CMakeFiles/cmTC_99417.dir/build
 gmake[1]: 进入目录“/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_7c601.dir/src.cxx.o
-/usr/bin/c++ -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type  -Werror=non-virtual-dtor -std=gnu++17 -o CMakeFiles/cmTC_7c601.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_99417.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type  -Werror=non-virtual-dtor -std=gnu++17 -o CMakeFiles/cmTC_99417.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
 /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx:2:36: error: ‘class base’ has virtual functions and accessible non-virtual destructor [-Werror=non-virtual-dtor]
     2 |                              class base {friend f; public: virtual void anchor();protected: ~base();};
       |                                    ^~~~
 cc1plus: some warnings being treated as errors
-gmake[1]: *** [CMakeFiles/cmTC_7c601.dir/build.make:78：CMakeFiles/cmTC_7c601.dir/src.cxx.o] 错误 1
+gmake[1]: *** [CMakeFiles/cmTC_99417.dir/build.make:78：CMakeFiles/cmTC_99417.dir/src.cxx.o] 错误 1
 gmake[1]: 离开目录“/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_7c601/fast] 错误 2
+gmake: *** [Makefile:127：cmTC_99417/fast] 错误 2
 
 
 Source file was:
@@ -81,17 +81,17 @@ class f {};
 Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_09684/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_09684.dir/build.make CMakeFiles/cmTC_09684.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_42489/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42489.dir/build.make CMakeFiles/cmTC_42489.dir/build
 gmake[1]: 进入目录“/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_09684.dir/src.c.o
-/usr/bin/cc -DC_WCOMMENT_ALLOWS_LINE_WRAP  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough  -Werror -Wcomment -o CMakeFiles/cmTC_09684.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_42489.dir/src.c.o
+/usr/bin/cc -DC_WCOMMENT_ALLOWS_LINE_WRAP  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough  -Werror -Wcomment -o CMakeFiles/cmTC_42489.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
 /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c:1:1: error: multi-line comment [-Werror=comment]
     1 | // \
       | ^
 cc1: all warnings being treated as errors
-gmake[1]: *** [CMakeFiles/cmTC_09684.dir/build.make:78：CMakeFiles/cmTC_09684.dir/src.c.o] 错误 1
+gmake[1]: *** [CMakeFiles/cmTC_42489.dir/build.make:78：CMakeFiles/cmTC_42489.dir/src.c.o] 错误 1
 gmake[1]: 离开目录“/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_09684/fast] 错误 2
+gmake: *** [Makefile:127：cmTC_42489/fast] 错误 2
 
 
 Source file was:
@@ -101,14 +101,14 @@ int main(void) {return 0;}
 Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d121b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d121b.dir/build.make CMakeFiles/cmTC_d121b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7de4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7de4.dir/build.make CMakeFiles/cmTC_b7de4.dir/build
 gmake[1]: Entering directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d121b.dir/src.c.o
-/usr/bin/cc -DC_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment    -Werror -Wstring-conversion -o CMakeFiles/cmTC_d121b.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_b7de4.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment    -Werror -Wstring-conversion -o CMakeFiles/cmTC_b7de4.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
 cc: error: unrecognized command-line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
-gmake[1]: *** [CMakeFiles/cmTC_d121b.dir/build.make:78: CMakeFiles/cmTC_d121b.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_b7de4.dir/build.make:78: CMakeFiles/cmTC_b7de4.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_d121b/fast] Error 2
+gmake: *** [Makefile:127: cmTC_b7de4/fast] Error 2
 
 
 Source file was:
@@ -116,14 +116,14 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27b32/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27b32.dir/build.make CMakeFiles/cmTC_27b32.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2cc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2cc7.dir/build.make CMakeFiles/cmTC_c2cc7.dir/build
 gmake[1]: Entering directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_27b32.dir/src.cxx.o
-/usr/bin/c++ -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment    -Werror -Wstring-conversion -std=gnu++17 -o CMakeFiles/cmTC_27b32.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_c2cc7.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment    -Werror -Wstring-conversion -std=gnu++17 -o CMakeFiles/cmTC_c2cc7.dir/src.cxx.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command-line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
-gmake[1]: *** [CMakeFiles/cmTC_27b32.dir/build.make:78: CMakeFiles/cmTC_27b32.dir/src.cxx.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_c2cc7.dir/build.make:78: CMakeFiles/cmTC_c2cc7.dir/src.cxx.o] Error 1
 gmake[1]: Leaving directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_27b32/fast] Error 2
+gmake: *** [Makefile:127: cmTC_c2cc7/fast] Error 2
 
 
 Source file was:
@@ -131,15 +131,15 @@ int main() { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e53fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e53fe.dir/build.make CMakeFiles/cmTC_e53fe.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86347/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86347.dir/build.make CMakeFiles/cmTC_86347.dir/build
 gmake[1]: Entering directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e53fe.dir/src.c.o
-/usr/bin/cc -DC_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment    -Werror -Wctad-maybe-unsupported -o CMakeFiles/cmTC_e53fe.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_86347.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment    -Werror -Wctad-maybe-unsupported -o CMakeFiles/cmTC_86347.dir/src.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/src.c
 cc1: error: command-line option '-Wctad-maybe-unsupported' is valid for C++/ObjC++ but not for C [-Werror]
 cc1: all warnings being treated as errors
-gmake[1]: *** [CMakeFiles/cmTC_e53fe.dir/build.make:78: CMakeFiles/cmTC_e53fe.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_86347.dir/build.make:78: CMakeFiles/cmTC_86347.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_e53fe/fast] Error 2
+gmake: *** [Makefile:127: cmTC_86347/fast] Error 2
 
 
 Source file was:
@@ -147,17 +147,17 @@ int main(void) { return 0; }
 Determining if the os_signpost_interval_begin exist failed with the following output:
 Change Dir: /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84e92/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84e92.dir/build.make CMakeFiles/cmTC_84e92.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3478a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3478a.dir/build.make CMakeFiles/cmTC_3478a.dir/build
 gmake[1]: 进入目录“/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_84e92.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fPIC -fno-semantic-interposition -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_84e92.dir/CheckSymbolExists.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_3478a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -fno-semantic-interposition -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_3478a.dir/CheckSymbolExists.c.o -c /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: os/signpost.h: 没有那个文件或目录
     2 | #include <os/signpost.h>
       |          ^~~~~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_84e92.dir/build.make:78：CMakeFiles/cmTC_84e92.dir/CheckSymbolExists.c.o] 错误 1
+gmake[1]: *** [CMakeFiles/cmTC_3478a.dir/build.make:78：CMakeFiles/cmTC_3478a.dir/CheckSymbolExists.c.o] 错误 1
 gmake[1]: 离开目录“/home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_84e92/fast] 错误 2
+gmake: *** [Makefile:127：cmTC_3478a/fast] 错误 2
 
 
 File /home/town/mlir-tutorial/toy-tutorial/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:

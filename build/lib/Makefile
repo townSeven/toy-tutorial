@@ -265,6 +265,30 @@ MLIRGen.cpp.s:
 	cd /home/town/mlir-tutorial/toy-tutorial/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/obj.Toy.dir/build.make lib/CMakeFiles/obj.Toy.dir/MLIRGen.cpp.s
 .PHONY : MLIRGen.cpp.s
 
+ShapeInferencePass.o: ShapeInferencePass.cpp.o
+.PHONY : ShapeInferencePass.o
+
+# target to build an object file
+ShapeInferencePass.cpp.o:
+	cd /home/town/mlir-tutorial/toy-tutorial/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/obj.Toy.dir/build.make lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o
+.PHONY : ShapeInferencePass.cpp.o
+
+ShapeInferencePass.i: ShapeInferencePass.cpp.i
+.PHONY : ShapeInferencePass.i
+
+# target to preprocess a source file
+ShapeInferencePass.cpp.i:
+	cd /home/town/mlir-tutorial/toy-tutorial/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/obj.Toy.dir/build.make lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.i
+.PHONY : ShapeInferencePass.cpp.i
+
+ShapeInferencePass.s: ShapeInferencePass.cpp.s
+.PHONY : ShapeInferencePass.s
+
+# target to generate assembly for a file
+ShapeInferencePass.cpp.s:
+	cd /home/town/mlir-tutorial/toy-tutorial/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/obj.Toy.dir/build.make lib/CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.s
+.PHONY : ShapeInferencePass.cpp.s
+
 ToyCombine.o: ToyCombine.cpp.o
 .PHONY : ToyCombine.o
 
@@ -335,6 +359,9 @@ help:
 	@echo "... MLIRGen.o"
 	@echo "... MLIRGen.i"
 	@echo "... MLIRGen.s"
+	@echo "... ShapeInferencePass.o"
+	@echo "... ShapeInferencePass.i"
+	@echo "... ShapeInferencePass.s"
 	@echo "... ToyCombine.o"
 	@echo "... ToyCombine.i"
 	@echo "... ToyCombine.s"
