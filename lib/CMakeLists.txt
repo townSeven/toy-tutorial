@@ -6,6 +6,7 @@ add_mlir_library(
     ToyCombine.cpp
     ShapeInferencePass.cpp
     LowerToAffineLoops.cpp
+    LowerToLLVM.cpp
 
     DEPENDS 
     ToyOpsIncGen

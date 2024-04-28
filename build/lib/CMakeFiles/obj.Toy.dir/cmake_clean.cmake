@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/obj.Toy.dir/Dialect.cpp.o.d"
   "CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o"
   "CMakeFiles/obj.Toy.dir/LowerToAffineLoops.cpp.o.d"
+  "CMakeFiles/obj.Toy.dir/LowerToLLVM.cpp.o"
+  "CMakeFiles/obj.Toy.dir/LowerToLLVM.cpp.o.d"
   "CMakeFiles/obj.Toy.dir/MLIRGen.cpp.o"
   "CMakeFiles/obj.Toy.dir/MLIRGen.cpp.o.d"
   "CMakeFiles/obj.Toy.dir/ShapeInferencePass.cpp.o"
